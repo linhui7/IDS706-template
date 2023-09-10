@@ -1,31 +1,19 @@
+This is a template for course IDS706 Projects. It contains:
 
-1. First thing to do on launch is to open a new shell and verify virtualenv is sourced.
+1. '.devcontainer' includes a Dockerfile and devcontainer.json. The 'Dockerfile' within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
 
-Things included are:
+2. 'workflows' includes GitHub Actions, which contain configuration files for setting up automated build, test, and deployment pipelines for your project.
 
-* `Makefile`
+3. '.gitignore' is used to specify which files or directories should be excluded from version control when using Git.
 
-* `Pytest`
+4. 'Makefile' is a configuration file used in Unix-based systems for automating tasks and building software. It contains instructions and dependencies for compiling code, running tests, and other development tasks.
 
-* `pandas`
+5. 'README.md' is the instruction file for the readers.
 
-* `Ruff`:  
+6. 'requirements.txt' is to specify the dependencies (libraries and packages) required to run the project.
 
-Run `make lint` which runs `ruff check`.  You can find out more info on [Ruff here](https://github.com/astral-sh/ruff).
+7. 'test_main.py' is a test file for main.py that can successfully run in IDEs.
 
-* `Dockerfile`
-
-* `GitHub copilot`
-
-* `jupyter` and `ipython` 
-
-* A base set of libraries for devops and web
-
-* `githubactions`
-
-## References
-
-![1 1-function-essence-of-programming](https://github.com/nogibjj/python-ruff-template/assets/58792/f7f33cd3-cff5-4014-98ea-09b6a29c7557)
-
+8. 'main.py' is a Python file.
 
 
