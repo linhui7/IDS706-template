@@ -1,6 +1,6 @@
 This is a template for course IDS706 Projects. It contains:
 
-1. '.devcontainer' includes a Dockerfile and devcontainer.json. The 'Dockerfile' within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
+1. '''.devcontainer''' includes a Dockerfile and devcontainer.json. The 'Dockerfile' within this folder specifies how the container should be built, and other settings in this directory may control development environment configurations.
 
 2. 'workflows' includes GitHub Actions, which contain configuration files for setting up automated build, test, and deployment pipelines for your project.
 
