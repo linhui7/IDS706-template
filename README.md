@@ -16,4 +16,4 @@ This is a template for course IDS706 Projects. It contains:
 
 8. `main.py` is a Python file.
 
-
+It used gitbuh actions to test and run. All processes are completed.
